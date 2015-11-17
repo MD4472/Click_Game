@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
 
     <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+<!--     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous"> -->
 
     <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+<!--     // <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script> -->
     <link rel="stylesheet" type="text/css" href="game.css">
 </head>
 <body>
@@ -22,134 +22,141 @@
     <div class="col-md-4"><h1>RCB First Game</h1></div>
   </div>  
   <div class="main">
-      <p>Number of Clicks</p>
+      <p id="numOfClicks">Number of Clicks</p>
       <p id="click">0</p>
         <button class="btn btn-lg btn-primary" id="start"><span class="glyphicon glyphicon-play" ></span>Start</button><br/>
       <p id="timer">20 sec</p>
       <!-- <p>sec</p> -->
-        <button class="btn btn-info btn-lg" id="restartButton"><span class="glyphicon glyphicon-refresh"></span>&nbsp;&nbsp;Restart</button></a>
+        <button class="btn btn-info btn-lg" id="restartButton"><span class="glyphicon glyphicon-refresh"></span>&nbsp;&nbsp;Restart</button>
        
       <div class="container">
         <div class="row">
-          <div class= "col-md-1 col-md-6">
+          <div class="col-md-1"></div>
+          <div class= "col-md-2">
             <img data-clickable ="true" src="http://i.imgur.com/0643cdH.png" title="source: imgur.com"     class="img-responsive img-circle student" >
           </div>
-          <div class= "col-md-1 col-md-6">
+          <div class= "col-md-2">
             <img data-clickable ="true" src="http://i.imgur.com/v9KcMva.png" title="source: imgur.com"     class="img-responsive img-circle student">
           </div>
-          <div class= "col-md-1 col-md-6">
+          <div class= "col-md-2">
             <img data-clickable ="true" src="http://i.imgur.com/rZZ9epT.png" title="source: imgur.com"     class="img-responsive img-circle student">
           </div>
-          <div class= "col-md-1 col-md-6">
+          <div class= "col-md-2">
             <img data-clickable ="true" src="http://i.imgur.com/mQMOTBD.png"  title="source: imgur.com"     class="img-responsive img-circle student">
           </div>
-          <div class= "col-md-1 col-md-6">
+          <div class= "col-md-2">
             <img data-clickable ="true" src="http://i.imgur.com/fTcVpMj.png" title="source: imgur.com"     class="img-responsive img-circle student">
           </div>
+          <div class="col-md-1"></div>
         </div>  
         <div class="row">
-          <div class= "col-md-1 col-md-6">
+          <div class= "col-md-2 col-md-offset-1">
             <img data-clickable ="true" src="http://i.imgur.com/0643cdH.png" title="source: imgur.com"     class="img-responsive img-circle student" >
           </div>
-          <div class= "col-md-1 col-md-6">
+          <div class= "col-md-2">
             <img data-clickable ="true" src="http://i.imgur.com/v9KcMva.png" title="source: imgur.com"     class="img-responsive img-circle student">
           </div>
-          <div class= "col-md-1 col-md-6">
+          <div class= "col-md-2">
             <img data-clickable ="true" src="http://i.imgur.com/rZZ9epT.png" title="source: imgur.com"     class="img-responsive img-circle student">
           </div>
-          <div class= "col-md-1 col-md-6">
+          <div class= "col-md-2">
             <img data-clickable ="true" src="http://i.imgur.com/mQMOTBD.png"  title="source: imgur.com"     class="img-responsive img-circle student">
           </div>
-          <div class= "col-md-1 col-md-6">
+          <div class= "col-md-2">
             <img data-clickable ="true" src="http://i.imgur.com/fTcVpMj.png" title="source: imgur.com"     class="img-responsive img-circle student">
           </div>
         </div>
         <div class="row">
-          <div class= "col-md-1 col-md-6">
+          <div class= "col-md-2 col-md-offset-1">
             <img data-clickable ="true" src="http://i.imgur.com/0643cdH.png" title="source: imgur.com"     class="img-responsive img-circle student" >
           </div>
-          <div class= "col-md-1 col-md-6">
+          <div class= "col-md-2">
             <img data-clickable ="true" src="http://i.imgur.com/v9KcMva.png" title="source: imgur.com"     class="img-responsive img-circle student">
           </div>
-          <div class= "col-md-1 col-md-6">
+          <div class= "col-md-2">
             <img data-clickable ="true" src="http://i.imgur.com/rZZ9epT.png" title="source: imgur.com"     class="img-responsive img-circle student">
           </div>
-          <div class= "col-md-1 col-md-6">
+          <div class= "col-md-2">
             <img data-clickable ="true" src="http://i.imgur.com/mQMOTBD.png"  title="source: imgur.com"     class="img-responsive img-circle student">
           </div>
-          <div class= "col-md-1 col-md-6">
+          <div class= "col-md-2">
             <img data-clickable ="true" src="http://i.imgur.com/fTcVpMj.png" title="source: imgur.com"     class="img-responsive img-circle student">
           </div>
         </div>
         <div class="row">
-          <div class= "col-md-1 col-md-6">
+          <div class= "col-md-2 col-md-offset-1">
             <img data-clickable ="true" src="http://i.imgur.com/0643cdH.png" title="source: imgur.com"     class="img-responsive img-circle student" >
           </div>
-          <div class= "col-md-1 col-md-6">
+          <div class= "col-md-2">
             <img data-clickable ="true" src="http://i.imgur.com/v9KcMva.png" title="source: imgur.com"     class="img-responsive img-circle student">
           </div>
-          <div class= "col-md-1 col-md-6">
+          <div class= "col-md-2">
             <img data-clickable ="true" src="http://i.imgur.com/rZZ9epT.png" title="source: imgur.com"     class="img-responsive img-circle student">
           </div>
-          <div class= "col-md-1 col-md-6">
+          <div class= "col-md-2">
             <img data-clickable ="true" src="http://i.imgur.com/mQMOTBD.png"  title="source: imgur.com"     class="img-responsive img-circle student">
           </div>
-          <div class= "col-md-1 col-md-6">
+          <div class= "col-md-2">
             <img data-clickable ="true" src="http://i.imgur.com/fTcVpMj.png" title="source: imgur.com"     class="img-responsive img-circle student">
           </div>
         </div>
         <div class="row">
-          <div class= "col-md-1 col-md-6">
+          <div class= "col-md-2 col-md-offset-1">
             <img data-clickable ="true" src="http://i.imgur.com/0643cdH.png" title="source: imgur.com"     class="img-responsive img-circle student" >
           </div>
-          <div class= "col-md-1 col-md-6">
+          <div class= "col-md-2">
             <img data-clickable ="true" src="http://i.imgur.com/v9KcMva.png" title="source: imgur.com"     class="img-responsive img-circle student">
           </div>
-          <div class= "col-md-1 col-md-6">
+          <div class= "col-md-2">
             <img data-clickable ="true" src="http://i.imgur.com/rZZ9epT.png" title="source: imgur.com"     class="img-responsive img-circle student">
           </div>
-          <div class= "col-md-1 col-md-6">
+          <div class= "col-md-2">
             <img data-clickable ="true" src="http://i.imgur.com/mQMOTBD.png"  title="source: imgur.com"     class="img-responsive img-circle student">
           </div>
-          <div class= "col-md-1 col-md-6">
+          <div class= "col-md-2">
             <img data-clickable ="true" src="http://i.imgur.com/fTcVpMj.png" title="source: imgur.com"     class="img-responsive img-circle student">
           </div>
         </div>
         
-<!--           <div class= "col-md-offset-6 col-md-6">
-            <img data-clickable ="true" src="http://i.imgur.com/0643cdH.png" title="source: imgur.com"     class="img-responsive img-circle student" >
-            <img data-clickable ="true" src="http://i.imgur.com/v9KcMva.png" title="source: imgur.com"     class="img-responsive img-circle student">
-            <img data-clickable ="true" src="http://i.imgur.com/rZZ9epT.png" title="source: imgur.com"     class="img-responsive img-circle student">
-            <img data-clickable ="true" src="http://i.imgur.com/mQMOTBD.png" title="source: imgur.com"     class="img-responsive img-circle student">
-            <img data-clickable ="true" src="http://i.imgur.com/fTcVpMj.png" title="source: imgur.com"     class= "img-responsive img-circle student">
-          </div> 
-          <div class= "col-md-offset-7 col-md-5">
-            <img data-clickable ="true" src="http://i.imgur.com/jDJkKKx.png" title="source: imgur.com"      class="img-responsive img-circle student">
-            <img data-clickable ="true" src="http://i.imgur.com/Ly1Hd26.png" title="source: imgur.com"      class="img-responsive img-circle student" >
-            <img data-clickable ="true" src="http://i.imgur.com/Hj78pPx.png" title="source: imgur.com"      class="img-responsive img-circle student">
-            <img data-clickable ="true" src="http://i.imgur.com/EUauEvk.png" title="source: imgur.com"      class="img-responsive img-circle student">
-            <img data-clickable ="true" src="http://i.imgur.com/1Y0Z3f9.png" title="source: imgur.com"      class="img-responsive img-circle student">
-          </div>
-          <div class= "col-md-offset-8 col-md-4">
-              <img data-clickable ="true" src="http://i.imgur.com/Q7cGXJ9.png" title="source: imgur.com"      class="img-responsive img-circle student">
-              <img data-clickable ="true" src="http://i.imgur.com/M4GSZgo.png" title="source: imgur.com"      class="img-responsive img-circle student">
-              <img data-clickable ="true" src="http://i.imgur.com/WtdLqz3.png" title="source: imgur.com"      class="img-responsive img-circle student">
-              <img data-clickable ="true" src="http://i.imgur.com/DqhJtXo.png" title="source: imgur.com"      class="img-responsive img-circle student">
-              <img data-clickable ="true" src="http://i.imgur.com/sxwbqzK.png" title="source: imgur.com"      class="img-responsive img-circle student">
-          </div>
-          <div class= "col-md-offset-9 col-md-3">
-              <img data-clickable ="true" src="http://i.imgur.com/wipbeIB.png" title="source: imgur.com"     class="img-responsive img-circle student">
-              <img data-clickable ="true" src="http://i.imgur.com/JaFWQMZ.png" title="source: imgur.com"     class="img-responsive img-circle student">
-              <img data-clickable ="true" src="http://i.imgur.com/t3SVsKY.png" title="source: imgur.com"     class="img-responsive img-circle student">
-              <img data-clickable ="true" src="http://i.imgur.com/QFANH3S.png" title="source: imgur.com"     class="img-responsive img-circle student">
-              <img data-clickable ="true" src="http://i.imgur.com/mHZvIGm.png" title="source: imgur.com"     class="img-responsive img-circle student">
-          </div>
-          <div class= "col-md-offset-10 col-md-2">
-              <img data-clickable ="true" src="http://i.imgur.com/A5C6YVB.png" title="source: imgur.com"     class="img-responsive img-circle">
-              <img data-clickable ="true" src="http://i.imgur.com/HZifaVa.png" title="source: imgur.com"     class="img-responsive img-circle student">
-              <img data-clickable ="true" src="http://i.imgur.com/En4zq6i.png" title="source: imgur.com"     class="img-responsive img-circle student">
-              <img data-clickable ="true" src="http://i.imgur.com/I0v0DMd.png" title="source: imgur.com"     class="img-responsive img-circle student">
-              <img data-clickable ="true" src="http://i.imgur.com/5N6i2dG.png" title="source: imgur.com"     class="img-responsive img-circle student"> --> 
+<!--             <div class= "row">
+              <div class= ""
+              <img data-clickable ="true" src="http://i.imgur.com/0643cdH.png" title="source: imgur.com"     class="img-responsive img-circle student" >
+              <img data-clickable ="true" src="http://i.imgur.com/v9KcMva.png" title="source: imgur.com"     class="img-responsive img-circle student">
+              <img data-clickable ="true" src="http://i.imgur.com/rZZ9epT.png" title="source: imgur.com"     class="img-responsive img-circle student">
+              <img data-clickable ="true" src="http://i.imgur.com/mQMOTBD.png" title="source: imgur.com"     class="img-responsive img-circle student">
+              <img data-clickable ="true" src="http://i.imgur.com/fTcVpMj.png" title="source: imgur.com"     class= "img-responsive img-circle student">
+            </div> 
+            <div class= "row">
+              <div class= ""
+              <img data-clickable ="true" src="http://i.imgur.com/jDJkKKx.png" title="source: imgur.com"      class="img-responsive img-circle student">
+              <img data-clickable ="true" src="http://i.imgur.com/Ly1Hd26.png" title="source: imgur.com"      class="img-responsive img-circle student" >
+              <img data-clickable ="true" src="http://i.imgur.com/Hj78pPx.png" title="source: imgur.com"      class="img-responsive img-circle student">
+              <img data-clickable ="true" src="http://i.imgur.com/EUauEvk.png" title="source: imgur.com"      class="img-responsive img-circle student">
+              <img data-clickable ="true" src="http://i.imgur.com/1Y0Z3f9.png" title="source: imgur.com"      class="img-responsive img-circle student">
+            </div>
+            <div class= "row">
+              <div class= ""
+                <img data-clickable ="true" src="http://i.imgur.com/Q7cGXJ9.png" title="source: imgur.com"      class="img-responsive img-circle student">
+                <img data-clickable ="true" src="http://i.imgur.com/M4GSZgo.png" title="source: imgur.com"      class="img-responsive img-circle student">
+                <img data-clickable ="true" src="http://i.imgur.com/WtdLqz3.png" title="source: imgur.com"      class="img-responsive img-circle student">
+                <img data-clickable ="true" src="http://i.imgur.com/DqhJtXo.png" title="source: imgur.com"      class="img-responsive img-circle student">
+                <img data-clickable ="true" src="http://i.imgur.com/sxwbqzK.png" title="source: imgur.com"      class="img-responsive img-circle student">
+            </div>
+            <div class= "row">
+              <div class= ""
+                <img data-clickable ="true" src="http://i.imgur.com/wipbeIB.png" title="source: imgur.com"     class="img-responsive img-circle student">
+                <img data-clickable ="true" src="http://i.imgur.com/JaFWQMZ.png" title="source: imgur.com"     class="img-responsive img-circle student">
+                <img data-clickable ="true" src="http://i.imgur.com/t3SVsKY.png" title="source: imgur.com"     class="img-responsive img-circle student">
+                <img data-clickable ="true" src="http://i.imgur.com/QFANH3S.png" title="source: imgur.com"     class="img-responsive img-circle student">
+                <img data-clickable ="true" src="http://i.imgur.com/mHZvIGm.png" title="source: imgur.com"     class="img-responsive img-circle student">
+            </div>
+            <div class= "row">
+              <div class= ""
+                <img data-clickable ="true" src="http://i.imgur.com/A5C6YVB.png" title="source: imgur.com"     class="img-responsive img-circle">
+                <img data-clickable ="true" src="http://i.imgur.com/HZifaVa.png" title="source: imgur.com"     class="img-responsive img-circle student">
+                <img data-clickable ="true" src="http://i.imgur.com/En4zq6i.png" title="source: imgur.com"     class="img-responsive img-circle student">
+                <img data-clickable ="true" src="http://i.imgur.com/I0v0DMd.png" title="source: imgur.com"     class="img-responsive img-circle student">
+                <img data-clickable ="true" src="http://i.imgur.com/5N6i2dG.png" title="source: imgur.com"     class="img-responsive img-circle student">  -->
           </div>
         </div>
       </div>  
